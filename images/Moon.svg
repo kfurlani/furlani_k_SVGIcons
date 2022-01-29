@@ -1,12 +1,28 @@
-<svg id="moon" xmlns="http://www.w3.org/2000/svg" width="174.83" height="163.36" viewBox="0 0 174.83 163.36">
+<svg id="moon" xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 174.83 163.36">
   <defs>
     <style>
+
+      #moon:hover{ cursor:pointer;}
+      #moon:hover .cls-1, .cls-3 {
+        fill: #be82f4
+      }
+      #moon:hover .cls-3 {
+        fill: #be82f4
+      }
+      #moon:hover .cls-1 {
+        transform: rotate(-30deg);
+      }
+      
+
       .cls-1, .cls-3 {
         fill: #fffa50;
+        transition: all 1s ease;
       }
 
       .cls-1 {
         stroke: #fffa50;
+        transform-origin: center;
+        transition: all 1.5s ease;
       }
 
       .cls-1, .cls-2 {

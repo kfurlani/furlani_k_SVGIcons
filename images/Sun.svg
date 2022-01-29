@@ -1,8 +1,20 @@
-<svg id="Sun" xmlns="http://www.w3.org/2000/svg" width="170.35" height="170.35" viewBox="0 0 170.35 170.35">
+<svg id="sun" xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 170.35 170.35">
   <defs>
     <style>
+      #sun:hover {
+        cursor: pointer;
+      }
+      #sun:hover .cls-1, .cls-2 {
+        fill: #ea6911;
+      }
+      #sun:hover {
+        transform: rotate (30deg)
+      }
+      
+
       .cls-1 {
         fill: #ffcd52;
+        transition: all 1s ease;
       }
 
       .cls-2 {
@@ -18,6 +30,16 @@
         fill: #fffa50;
       }
     </style>
+    
+      let theSun = document.querySelector("#sun");
+
+      function logMyId(){
+        console.log(this.id);
+      }
+
+      theSun.addEventListener("click", logmyId);
+
+ 
   </defs>
   <g id="sunrays">
     <path class="cls-1" d="M168.79,85.18c-24.3,8.19-26,16-6.57,32.54-25.39-2.36-29.73,4-17.92,26.58-22.55-11.81-28.94-7.47-26.58,17.92-16.55-19.39-24.35-17.73-32.54,6.57-8.19-24.3-16-26-32.55-6.57,2.36-25.39-4-29.73-26.58-17.92,11.82-22.55,7.48-28.94-17.91-26.58,19.38-16.55,17.72-24.35-6.57-32.54,24.29-8.19,26-16,6.57-32.55,25.39,2.36,29.73-4,17.91-26.58C48.6,37.87,55,33.53,52.63,8.14,69.19,27.52,77,25.86,85.18,1.57c8.19,24.29,16,26,32.54,6.57-2.36,25.39,4,29.73,26.58,17.91C132.49,48.6,136.83,55,162.22,52.63,142.83,69.19,144.49,77,168.79,85.18Z"/>
