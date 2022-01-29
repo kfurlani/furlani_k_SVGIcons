@@ -1,0 +1,45 @@
+* {
+    border: none;
+    padding: 0;
+    margin: 0;
+
+    box-sizing: border-box;
+}
+
+
+body { font-size: 16px}
+
+.hidden { display: none; }
+
+.main-heading { 
+    color: red; 
+    cursor: pointer; 
+
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    /* em is a relative unit based on the font size you set on the body */
+    font-size: 3em;
+}
+
+#svg-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 20px;
+}
+
+.container { display: flex; }
+/* descendant selector: every img inside EVERY element with a class of container */
+.container img { 
+    width: 100%; 
+    text-align: bottom;
+} 
+
+#text{
+    text-align: justify;
+}
+
+/* interavtive SVG rule */
+.cls-2:hover{
+    fill: orange;
+}

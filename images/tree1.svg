@@ -1,0 +1,31 @@
+<svg id="tree" xmlns="http://www.w3.org/2000/svg" width="85.87" height="120.68" viewBox="0 0 85.87 120.68">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #512c0b;
+        stroke: #512c0b;
+      }
+
+      .cls-1, .cls-2 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        fill: #519668;
+        stroke: #519668;
+      }
+    </style>
+  </defs>
+  <path id="trunk" class="cls-1" d="M59,120.18H30.1a136,136,0,0,0,4.7-36.54,136,136,0,0,0-4.7-34.13H59a142.41,142.41,0,0,0,0,70.67Z"/>
+  <g id="leaves">
+    <circle class="cls-2" cx="26.94" cy="60.98" r="17.25"/>
+    <circle class="cls-2" cx="17.75" cy="39.97" r="17.25"/>
+    <circle class="cls-2" cx="25.13" cy="23.83" r="17.25"/>
+    <circle class="cls-2" cx="44.54" cy="17.75" r="17.25"/>
+    <circle class="cls-2" cx="64.59" cy="23.83" r="17.25"/>
+    <circle class="cls-2" cx="68.12" cy="43.74" r="17.25"/>
+    <circle class="cls-2" cx="63.09" cy="60.98" r="17.25"/>
+    <circle class="cls-2" cx="45.84" cy="60.98" r="17.25"/>
+    <circle class="cls-2" cx="44.54" cy="41.42" r="34.84"/>
+  </g>
+</svg>

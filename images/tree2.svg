@@ -1,0 +1,22 @@
+<svg id="tree2" xmlns="http://www.w3.org/2000/svg" width="68" height="111.88" viewBox="0 0 68 111.88">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #512c0b;
+        stroke: #512c0b;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        fill: #519668;
+      }
+    </style>
+  </defs>
+  <rect id="trunk2" class="cls-1" x="23.41" y="72.06" width="21.47" height="39.32"/>
+  <g id="leaves2">
+    <polygon class="cls-2" points="34 32.83 0 91.72 68 91.72 34 32.83"/>
+    <polygon class="cls-2" points="34.15 20.55 2.6 75.19 65.69 75.19 34.15 20.55"/>
+    <polygon class="cls-2" points="34.15 8.13 4.11 60.15 64.19 60.15 34.15 8.13"/>
+    <polygon class="cls-2" points="34 0 8.84 43.58 59.16 43.58 34 0"/>
+  </g>
+</svg>
