@@ -1,6 +1,6 @@
 # The Best Nature Icons
 
-<img src="images/banner.svg" alt="vector banner">
+<img src="images/Banner-ReadMe.svg" alt="vector banner">
 
 ## About
 
