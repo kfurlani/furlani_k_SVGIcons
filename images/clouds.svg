@@ -20,6 +20,13 @@
         fill: #9ed4d8;
       }
     </style>
+      let theClouds = document.querySelector("#clouds");
+
+      function logMyId(){
+        console.log(this.id);
+      }
+
+      theClouds.addEventListener("click", logmyId);
   </defs>
   <g id="clouds-2" data-name="clouds">
     <ellipse class="cls-1" cx="81.31" cy="67.61" rx="80.81" ry="37.93"/>

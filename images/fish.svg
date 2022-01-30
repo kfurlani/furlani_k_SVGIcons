@@ -46,6 +46,13 @@
         transition: all 1s ease;
       }
     </style>
+      let theFish = document.querySelector("#fish");
+
+      function logMyId(){
+        console.log(this.id);
+      }
+
+      theFish.addEventListener("click", logmyId);
   </defs>
   <g id="fins">
     <ellipse class="cls-1" cx="96.33" cy="15.68" rx="17.31" ry="15.68"/>
