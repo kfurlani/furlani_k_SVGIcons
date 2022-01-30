@@ -1,10 +1,13 @@
-<svg id="Star" xmlns="http://www.w3.org/2000/svg" width="173.85" height="185.74" viewBox="0 0 173.85 185.74">
+<svg id="Star" xmlns="http://www.w3.org/2000/svg" width="550" height="550" viewBox="0 0 173.85 185.74">
   <defs>
     <style>
+    #Star:hover{cursor:pointer}
+    #Star:hover #Star1{fill:#e5b0ea}
+    #Star:hover #Star2{fill:#67cfe8}
+    #Star:hover #Star3{fill:#62f462}
       .cls-1 {
         fill: #fffa50;
-        stroke: #fffa50;
-        stroke-miterlimit: 10;
+        transition: all 1s ease;
       }
     </style>
   </defs>

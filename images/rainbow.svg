@@ -1,17 +1,26 @@
-<svg id="rainbow" xmlns="http://www.w3.org/2000/svg" width="181.64" height="116.37" viewBox="0 0 181.64 116.37">
+<svg id="rainbow" xmlns="http://www.w3.org/2000/svg" width="550" height="550" viewBox="0 0 181.64 116.37">
   <defs>
     <style>
+      #rainbow:hover{cursor:pointer;}
+      #rainbow:hover #clouds{
+          transform: rotate(-10deg);
+          transform-origin: center;
+          transition: all 2s ease;
+      }
+      #rainbow:hover #clouds-2{
+          transform: rotate(10deg);
+          transform-origin: center;
+          transition: all 2s ease;
+      }
+
       .cls-1, .cls-2, .cls-3, .cls-4, .cls-5 {
         fill: none;
+        stroke-miterlimit: 10;
         stroke-width: 13px;
       }
 
       .cls-1 {
         stroke: #000;
-      }
-
-      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6 {
-        stroke-miterlimit: 10;
       }
 
       .cls-2 {
@@ -32,7 +41,6 @@
 
       .cls-6 {
         fill: #9ed4d8;
-        stroke: #9ed4d8;
       }
     </style>
   </defs>

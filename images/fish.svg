@@ -1,24 +1,49 @@
-<svg id="fish" xmlns="http://www.w3.org/2000/svg" width="176.25" height="82.87" viewBox="0 0 176.25 82.87">
+<svg id="fish" xmlns="http://www.w3.org/2000/svg" width="550" height="550" viewBox="0 0 176.25 82.87">
   <defs>
     <style>
+    #fish:hover{cursor:pointer}
+    #fish:hover #nose{
+      fill: #9bffb1;
+    }
+    #fish:hover #front{
+      fill: #8ce69f;
+    }
+    #fish:hover #back{
+      fill: #75bf85;
+    }
+    #fish:hover #tail{
+      fill: #4e8059;
+    }
+    #fish:hover .cls-1{
+      fill: #27402c;
+    }
+    #fish:hover{
+      transform: rotate(-30deg);
+      transform-origin: center;
+      transition: all 1s ease;
+    }
       .cls-1 {
         fill: #322e40;
       }
 
       .cls-2 {
         fill: #b4a5e6;
+        transition: all 1s ease;
       }
 
       .cls-3 {
         fill: #968abf;
+        transition: all 1s ease;
       }
 
       .cls-4 {
         fill: #645c80;
+        transition: all 1s ease;
       }
 
       .cls-5 {
         fill: #c8b7ff;
+        transition: all 1s ease;
       }
     </style>
   </defs>
