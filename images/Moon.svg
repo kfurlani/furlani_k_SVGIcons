@@ -23,6 +23,13 @@
         stroke-miterlimit: 10;
       }
     </style>
+      let theMoon = document.querySelector("#moon");
+
+      function logMyId(){
+        console.log(this.id);
+      }
+
+      theMoon.addEventListener("click", logmyId);
   </defs>
   <circle id="moonCircle" class="cls-1" cx="76.19" cy="87.17" r="75.69"/>
   <circle id="moonCut" class="cls-2" cx="104.16" cy="70.67" r="70.17"/>

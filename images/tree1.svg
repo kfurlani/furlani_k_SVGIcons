@@ -14,6 +14,13 @@
         fill: #519668;
       }
     </style>
+      let theTree = document.querySelector("#tree");
+
+      function logMyId(){
+        console.log(this.id);
+      }
+
+      theTree.addEventListener("click", logmyId);
   </defs>
   <path id="trunk" class="cls-1" d="M59,120.18H30.1a136,136,0,0,0,4.7-36.54,136,136,0,0,0-4.7-34.13H59a142.41,142.41,0,0,0,0,70.67Z"/>
   <g id="leaves">

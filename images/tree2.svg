@@ -28,6 +28,13 @@
         fill: #519668;
       }
     </style>
+      let theTree2 = document.querySelector("#tree2");
+
+      function logMyId(){
+        console.log(this.id);
+      }
+
+      theTree2.addEventListener("click", logmyId);
   </defs>
   <rect id="trunk2" class="cls-1" x="23.41" y="72.06" width="21.47" height="39.32"/>
   <g id="leaves2">

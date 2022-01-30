@@ -52,6 +52,13 @@
         fill: #d3a56a;
       }
     </style>
+      let theFlower = document.querySelector("#flower");
+
+      function logMyId(){
+        console.log(this.id);
+      }
+
+      theFlower.addEventListener("click", logmyId);
   </defs>
   <path class="cls-1" d="M29.8,45.93c-1.37,28,15.53,54.58,36.58,56.57"/>
   <g id="petal1">

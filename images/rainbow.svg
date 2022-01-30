@@ -43,6 +43,13 @@
         fill: #9ed4d8;
       }
     </style>
+      let theRainbow = document.querySelector("#rainbow");
+
+      function logMyId(){
+        console.log(this.id);
+      }
+
+      theRainbow.addEventListener("click", logmyId);
   </defs>
   <path id="color1" class="cls-1" d="M34.7,98c0-36.4,25.17-66,56.12-66s56.12,29.62,56.12,66"/>
   <path id="color2" class="cls-2" d="M13.08,98C13.08,47.52,48,6.5,90.82,6.5s77.74,41,77.74,91.45"/>
