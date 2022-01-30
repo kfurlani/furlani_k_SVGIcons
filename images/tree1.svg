@@ -1,18 +1,17 @@
-<svg id="tree" xmlns="http://www.w3.org/2000/svg" width="85.87" height="120.68" viewBox="0 0 85.87 120.68">
+<svg id="tree" xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 85.87 120.68">
   <defs>
     <style>
+    #tree:hover{cursor:pointer;}
+    #tree:hover .cls-2{
+      fill:  #162b1c;
+      transition: all 1.5s ease;
+    }
       .cls-1 {
         fill: #512c0b;
-        stroke: #512c0b;
-      }
-
-      .cls-1, .cls-2 {
-        stroke-miterlimit: 10;
       }
 
       .cls-2 {
         fill: #519668;
-        stroke: #519668;
       }
     </style>
   </defs>

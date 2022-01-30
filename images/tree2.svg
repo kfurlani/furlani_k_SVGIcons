@@ -1,6 +1,23 @@
-<svg id="tree2" xmlns="http://www.w3.org/2000/svg" width="68" height="111.88" viewBox="0 0 68 111.88">
+<svg id="tree2" xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 68 111.88">
   <defs>
     <style>
+    #tree2:hover{cursor:pointer;}
+    #tree2:hover #leaf1{
+      fill: #162b1c;
+      transition: all 1.75s ease;
+    }
+    #tree2:hover #leaf2{
+      fill: #223f29;
+      transition: all 1.75s ease;
+    }
+    #tree2:hover #leaf3{
+      fill: #2d5135;
+      transition: all 1.75s ease;
+    }
+    #tree2:hover #leaf4{
+      fill: #3f6d48;
+      transition: all 1.75s ease;
+    }
       .cls-1 {
         fill: #512c0b;
         stroke: #512c0b;
@@ -14,9 +31,9 @@
   </defs>
   <rect id="trunk2" class="cls-1" x="23.41" y="72.06" width="21.47" height="39.32"/>
   <g id="leaves2">
-    <polygon class="cls-2" points="34 32.83 0 91.72 68 91.72 34 32.83"/>
-    <polygon class="cls-2" points="34.15 20.55 2.6 75.19 65.69 75.19 34.15 20.55"/>
-    <polygon class="cls-2" points="34.15 8.13 4.11 60.15 64.19 60.15 34.15 8.13"/>
-    <polygon class="cls-2" points="34 0 8.84 43.58 59.16 43.58 34 0"/>
+    <polygon id="leaf4" class="cls-2" points="34 32.83 0 91.72 68 91.72 34 32.83"/>
+    <polygon id="leaf3" class="cls-2" points="34.15 20.55 2.6 75.19 65.69 75.19 34.15 20.55"/>
+    <polygon id="leaf2" class="cls-2" points="34.15 8.13 4.11 60.15 64.19 60.15 34.15 8.13"/>
+    <polygon id="leaf1" class="cls-2" points="34 0 8.84 43.58 59.16 43.58 34 0"/>
   </g>
 </svg>

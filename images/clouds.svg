@@ -1,10 +1,23 @@
-<svg id="clouds" xmlns="http://www.w3.org/2000/svg" width="162.62" height="113.68" viewBox="0 0 162.62 113.68">
+<svg id="clouds" xmlns="http://www.w3.org/2000/svg" width="550" height="550" viewBox="0 0 162.62 113.68">
   <defs>
     <style>
+        #clouds:hover{cursor:pointer}
+        #clouds:hover .cls-1 {fill:#173c3d}
+        #clouds:hover #clouds-2 {
+          transform: rotate(360deg);
+          transform-origin: center;
+          transition: all 2s ease;
+        }
+
+
       .cls-1 {
         fill: #9ed4d8;
-        stroke: #9ed4d8;
-        stroke-miterlimit: 10;
+        transform-origin: center;
+        transition: all 1s ease;
+        
+      }
+      .cls-1 {
+        fill: #9ed4d8;
       }
     </style>
   </defs>
@@ -15,6 +28,6 @@
     <ellipse class="cls-1" cx="39.5" cy="60" rx="25.63" ry="36.28" transform="translate(-19.02 18.33) rotate(-21.19)"/>
     <ellipse class="cls-1" cx="57.92" cy="76.87" rx="36.28" ry="25.63" transform="translate(-35.94 98.17) rotate(-65.79)"/>
     <ellipse class="cls-1" cx="110.61" cy="79.77" rx="25.63" ry="36.28" transform="translate(-25.66 74.36) rotate(-33.53)"/>
+    <ellipse class="cls-1" cx="83.66" cy="70.32" rx="38.3" ry="39.54" transform="translate(-5.2 6.69) rotate(-4.44)"/>
   </g>
-  <ellipse class="cls-1" cx="83.66" cy="70.32" rx="38.3" ry="39.54" transform="translate(-5.2 6.69) rotate(-4.44)"/>
 </svg>

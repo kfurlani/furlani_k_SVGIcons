@@ -1,6 +1,31 @@
-<svg id="flower" xmlns="http://www.w3.org/2000/svg" width="66.52" height="103.99" viewBox="0 0 66.52 103.99">
+<svg id="flower" xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 66.52 103.99">
   <defs>
     <style>
+    #flower:hover{cursor:pointer;}
+    #flower:hover #flower1{ 
+      transform: rotate(360deg);
+      transform-origin:center;
+      transition: all 2.5s ease;
+      }
+      #flower:hover #flower2{ 
+      transform: rotate(360deg);
+      transform-origin:center;
+      transition: all 2.5s ease;
+      }
+      #flower:hover #flowerCenter{ 
+      transform: rotate(360deg);
+      transform-origin:center;
+      transition: all 2.5s ease;
+      }
+      #flower:hover .cls-3{
+        fill: #2665b2;
+        transition: all 2.5s ease;
+      }
+        #flower:hover .cls-2{
+        fill: #61a3f2;
+        transition: all 2.5s ease;
+      }
+
       .cls-1 {
         fill: none;
       }
