@@ -4,7 +4,7 @@
 
 ## About
 
-These nature icons are all about fun and colour! Elevate any of your projects by choosing our unique designs. We have:
+These nature icons are all about fun and colour! Elevate any of your projects by choosing our unique designs. Our designs feature exciting CSS transitions. We have the following option:
 - Sun :sunny:
 - Moon :crescent_moon:
 - Stars :star:
